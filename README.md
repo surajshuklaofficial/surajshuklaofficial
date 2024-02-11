@@ -1,6 +1,10 @@
 ### Hi there 👋
-<img src="https://api.githubtrends.io/user/svg/surajshuklaofficial/langs?time_range=one_year&theme=dark" alt="languages-used"/>
-<img src="https://api.githubtrends.io/user/svg/surajshuklaofficial/repos?time_range=one_year&loc_metric=changed&theme=dark" alt="most-worked-repose"/>
+
+<div class="flex">
+  <img src="https://api.githubtrends.io/user/svg/surajshuklaofficial/langs?time_range=one_year&theme=dark" alt="languages-used"/>
+  <img src="https://api.githubtrends.io/user/svg/surajshuklaofficial/repos?time_range=one_year&loc_metric=changed&theme=dark" alt="most-worked-repose"/>
+</div>
+
 <!--
 **surajshuklaofficial/surajshuklaofficial** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
