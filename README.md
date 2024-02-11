@@ -1,5 +1,5 @@
 ### Hi there 👋
-
+<img src="https://api.githubtrends.io/user/svg/surajshuklaofficial/langs?time_range=one_year&theme=dark" />
 <!--
 **surajshuklaofficial/surajshuklaofficial** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
