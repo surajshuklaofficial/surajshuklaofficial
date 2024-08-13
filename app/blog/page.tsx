@@ -1,13 +1,14 @@
 import { getPages } from "@/lib/notion";
+import Post from "@/components/shared/Post";
 
-export default async function Page() {
+export default async function PostList() {
   const post: any = await getPages();
 
-  console.log("hi",post.results[0]?.properties)
-
   return (
-    <div>
-        {post.results.map(() => <>hi</>)}
+    <div className="post-list grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-6">
+      {post.results.map((postItem: any) => (
+        <Post key={postItem.id} postItem={postItem} />
+      ))}
     </div>
   );
 }

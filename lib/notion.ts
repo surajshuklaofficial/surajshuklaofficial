@@ -34,7 +34,7 @@ export const getPageBySlug = cache(async (slug: string) => {
     .query({
       database_id: process.env.NOTION_DATABASE_ID!,
       filter: {
-        property: "Name",
+        property: "Slug",
         rich_text: {
           equals: slug,
         },
