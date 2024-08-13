@@ -74,7 +74,7 @@ export function Header() {
                 <NavigationMenu className="md:hidden px-2 pt-2 pb-3 space-y-1 sm:px-3">
                     <NavigationMenuList className="flex flex-col items-start">
                         {navItems.map((item) => (
-                            <NavigationMenuItem>
+                            <NavigationMenuItem key={item.name}>
                                 <Link href={item.href} legacyBehavior passHref className="block text-gray-800 hover:text-blue-600">
                                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>{item.name}</NavigationMenuLink>
                                 </Link>

@@ -13,7 +13,7 @@ export const Hero = () => {
             I'm pursuing Software Engineering at Delhi Technological University
           </p>
         </div>
-        <div className="mt-10 md:mt-0 md:w-1/2">
+        <div className="mtgit-10 md:mt-0 md:w-1/2">
           <Image
             src={ENGINEERING}  
             width={500}
